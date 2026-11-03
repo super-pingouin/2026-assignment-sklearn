@@ -206,7 +206,7 @@ def get_estimator():
     """
     # TODO
     ...
-    cat_cols = ['gender', 'level', 'has_downgraded', 'cancel_initiated']
+    cat_cols = ['gender', 'level']
     num_cols = ['total_events', 'rate_songs', 'rate_thumbs_up', 'rate_thumbs_down',
                 'rate_errors', 'n_sessions']
 
